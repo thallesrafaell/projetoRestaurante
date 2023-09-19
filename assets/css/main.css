@@ -1,35 +1,34 @@
-body{
-    font-family: Roboto, sans-serif;
+body {
+  font-family: Roboto, sans-serif;
 }
 
 .navbar {
-    background-color: #e15f41;
+  background-color: #e15f41;
 }
 
-.nav .nav-item .active{
-    color: #e15f41;
-    background-color: white;
+.nav .nav-item .active {
+  color: #e15f41;
+  background-color: white;
 }
 
 .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover{
-    color: white;
+.navbar-brand:hover {
+  color: white;
 }
 
-.navbar-toggler{
-    background-color: white;
+.navbar-toggler {
+  background-color: white;
 }
 
-.section-title{
-    font-family: Pacifico, cursive;
-
+.section-title {
+  font-family: Pacifico, cursive;
 }
 
-.section-title span{
-    color: #e15f41;
+.section-colored {
+  color: #e15f41;
 }
 
-#sobre{
-    background-color: #ffeae6;
+#sobre {
+  background-color: #ffeae6;
 }
