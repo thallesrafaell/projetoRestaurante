@@ -23,3 +23,8 @@ body{
 .navbar-toggler{
     background-color: white;
 }
+
+section{
+    width: 100vw;
+
+}
