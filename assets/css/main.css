@@ -17,14 +17,19 @@ body{
     color: white;
 }
 
-.navbar-brand{
-    font-family: Pacifico;
-}
 .navbar-toggler{
     background-color: white;
 }
 
-section{
-    width: 100vw;
+.section-title{
+    font-family: Pacifico, cursive;
 
+}
+
+.section-title span{
+    color: #e15f41;
+}
+
+#sobre{
+    background-color: #ffeae6;
 }
