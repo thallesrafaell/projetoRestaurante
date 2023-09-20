@@ -38,7 +38,7 @@
             </nav>
         </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <div data-bs-spy="scroll" data-bs-smooth-scroll="true" data-bs-target="#cabecalho">
         <section id="sobre">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -69,8 +69,8 @@
                             <img class="d-block w-100 rounded" src="assets/images/restaurante.jpg"
                                 alt="espaço interno do restaurante">
                         </div>
-                        <div class="col-md-7">
-                            <h2 class="section-title">Sobre <span class="section-colored">o Gordons</span></h2>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title ">Sobre <span class="section-colored">o Gordons</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio atque animi adipisci culpa
                                 odit suscipit eveniet, cum eum maxime molestiae officiis esse error quidem officia nobis
                                 labore voluptate est alias?</p>
@@ -349,6 +349,56 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"> Fale <span class="section-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold section-colored">Nome</label>
+                                <input type="text" id="nome" name="nome" required class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="email" class="form-label fw-bold section-colored">E-mail</label>
+                                <input type="email" id="email" name="email" required class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="tel" class="form-label fw-bold section-colored">Telefone</label>
+                                <input type="tel" id="tel" name="tel" required class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="message" class="form-label fw-bold section-colored">Nome</label>
+                                <textarea class="form-control" required id="message">Sua mensagem.</textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title section-colored fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-link">
+                                <li><a href="#"><i class=" section-colored bi fs-4 bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="ms-2 me-2 section-colored bi fs-4 bi-instagram"></i></a></li>
+                                <li><a href="#"><i class=" section-colored bi fs-4 bi-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title section-colored fs-4" >
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua, Dos Bobos N°0 - Bairro Armario - Narnia-TR</p>
                         </div>
                     </div>
                 </div>
