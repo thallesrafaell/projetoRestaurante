@@ -6,12 +6,12 @@ body {
   background-color: #e15f41;
 }
 
-.nav .nav-item .active {
+#cabecalho .nav .nav-item .active {
   color: #e15f41;
   background-color: white;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
   color: white;
@@ -31,4 +31,17 @@ body {
 
 #sobre {
   background-color: #ffeae6;
+}
+
+#cardapio{
+  background-color: #ffeae6;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: #e15f41;
+  color: white;
+
+}
+.nav-cardapio .nav-link:hover{
+  color: #e15f41;
 }
